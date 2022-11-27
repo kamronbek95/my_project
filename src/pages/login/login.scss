@@ -1,0 +1,112 @@
+.login{
+    display: flex;
+    align-items: center;
+    &__task{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+        margin-top: 81px;
+        &__title{
+            height: 30px;
+            width: 412px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #000000;
+            margin-bottom: 18px;
+        }
+
+        &__desc{
+            height: 82px;
+            width: 334px;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 23px;
+            text-align: center;
+            color: #304FFF;
+        }
+        &__line{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #787993;
+            &__img{
+                width: 140px;
+                margin: 0 8px;
+            }
+        }
+        &__vostonavlenie{
+            height: 63px;
+            width: 333px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #4E72CA;
+            text-decoration: none;
+        }
+    }
+
+    &__form{
+        display: flex;
+        flex-direction: column;
+        &__label{
+            height: 21px;
+            width: 284px;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 21px;
+            color: #787993;
+            margin-bottom: 7px;
+        }
+        &__login{
+            height: 62px;
+            width: 329px;
+            border-radius: 5px;
+            background: #FFFFFF;
+            border: 1px solid rgba(151, 151, 151, 0.482592);
+            margin-bottom: 24px;
+            padding-left: 24px;
+        }
+        &__password{
+            height: 62px;
+            width: 329px;
+            border-radius: 5px;
+            background: #FFFFFF;
+            border: 1px solid rgba(151, 151, 151, 0.482592);
+            margin-bottom: 31px;
+            padding-left: 24px;
+        }
+        &__btn{
+            height: 62px;
+            width: 329px;
+            border-radius: 5px;
+            background: #41D481;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 21px;
+            text-align: center;
+            color: #FFFFFF;
+            border: inherit;
+            margin-bottom: 49px;
+        }
+    }
+}
+
+.img{
+    position: relative;
+    margin-top: 17px;
+    height: 952px;
+    width: 654px;
+    width: 50%;
+    background: url('../../assets/bgl.png') no-repeat;
+    &__kivi{
+        position: absolute;
+        left: 65px;
+        top: 488px;     
+    }
+}

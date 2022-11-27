@@ -1,0 +1,120 @@
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 52px;
+    padding-top: 21px;
+
+    &__img{
+        width: 67px;
+        height: 67px;
+        mix-blend-mode: normal;
+        opacity: 0.9;
+    }
+    &__imgs{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__img{
+            width: 177px;
+            height: 55px;   
+            margin-left: 4px;
+        }
+    }
+
+    &__title{
+        height: 36px;
+        width: 307px;
+        font-weight: 500;
+        font-size: 15p;
+        line-height: 18px;
+        color: #98A4B7;
+        margin-bottom: 0;
+    }
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    &__m{
+        margin-right: 29px;
+    }
+    &__main{
+        display: flex;
+        flex-direction: column;
+        &__cards{
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+            margin-top: 52px;
+            &__img{
+                width: 5.92px;
+                height: 9.6px;
+            }
+            &__title{
+                width: 125px;
+                height: 17px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 17px;
+                color: #FFFFFF;
+                margin-bottom: 0;
+                margin-left: 12px;
+            }
+        }
+        &__card{
+            display: flex;
+            margin-left: 13px;
+            &__desc{
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 29px;
+                color: #878F99;
+            }
+        }
+    }
+}
+
+.show__footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__title{
+        font-family: 'Gilroy';
+        font-size: 15px;
+        line-height: 18px;
+        color: #66717A;
+    }
+}
+
+.hr{
+    height: 3px;
+    border: 1px solid #4C565E;
+}
+
+.footer__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    &__title1{
+        font-family: 'Gilroy';
+        font-size: 15px;
+        line-height: 18px;
+        color: #05F3B3;
+    }
+    &__title{
+        font-family: 'Gilroy';
+        font-size: 15px;
+        line-height: 18px;
+        color:  #66717A;
+    }
+}

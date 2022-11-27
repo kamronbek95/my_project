@@ -1,0 +1,28 @@
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 330px;
+    max-width: 1408px;
+    margin-top: 74px;
+    background: rgba(182, 202, 251, 0.159986);
+    box-shadow: inset 0px 21px 13px rgba(182, 202, 251, 0.225402);
+    position: relative;
+    margin: auto;
+    
+    &__cards{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__img{
+        height: 238px;
+        width: 359px;
+    }
+
+    &__image{
+        height: 238px;
+        position: absolute;
+        right: 0;
+    }
+}
